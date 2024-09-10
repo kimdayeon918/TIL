@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
   </head>
   <body>
     <h1>안녕하세요</h1>
@@ -27,12 +27,10 @@
 
 content를 가지지 않고 속성만을 가지는 태그로, 빈 요소라고 함
 
-태그와 규칙을 맞춰주기 위해 <  /> 처럼 사용하기도 함
+태그와 규칙을 맞춰주기 위해 < /> 처럼 사용하기도 함
 
 - 대표적인 빈 요소 태그
-    
-    <br> 줄 바꿈
-    
+  <br> 줄 바꿈
     <hr> 선 긋기
     
     <img> 이미지
@@ -42,7 +40,7 @@ content를 가지지 않고 속성만을 가지는 태그로, 빈 요소라고 �
     <meta> 해당 문서에 대한 메타데이터를 정의
     
     <input> 입력 요소를 만듦
-    
+
 
 ## 태그의 속성
 
@@ -54,13 +52,13 @@ HTML에서는 태그의 속성도 미리 정의되어 있음
 
 ```html
 <html>
-<head>
-	<link type="text/css" href="my_style.css">
-</head>
-<body>
-	<font color="red" face="Dotum">Hello</font>
-	<font color="yellow">World</font>
-</body>
+  <head>
+    <link type="text/css" href="my_style.css" />
+  </head>
+  <body>
+    <font color="red" face="Dotum">Hello</font>
+    <font color="yellow">World</font>
+  </body>
 </html>
 ```
 
@@ -75,10 +73,10 @@ font태그에 색상과 글꼴을 정의하는 color와 face 속성 사용
 id는 하나 당 하나의 태그에만 적용, class는 하나를 여러 태그에 적용 가능
 
 ```html
-<div id="my-box1"></div>
-<div id="my-box2" class="boxes"></div>
-<div id="my-box3" class="boxes"></div>
-<div class="boxes"></div>
+<div id="my-box1"></div>
+<div id="my-box2" class="boxes"></div>
+<div id="my-box3" class="boxes"></div>
+<div class="boxes"></div>
 ```
 
 ## style 속성
@@ -88,8 +86,8 @@ id는 하나 당 하나의 태그에만 적용, class는 하나를 여러 태그
 HTML문서 내에서 태그를 직접 설정할 때 쓰임
 
 ```html
-<div style="width:500px; height:300px"></div>
-<div style="height:40px; border: 1px solid green">mybox</div>
+<div style="width:500px; height:300px"></div>
+<div style="height:40px; border: 1px solid green">mybox</div>
 ```
 
 ## DIV
@@ -104,18 +102,18 @@ Division
 
 ```html
 <html>
-	<body>
-		<div style="background-color:cyan">구역1</div>
-		<div style="width:100px; height:100px; background-color:#CF0">구역2</div>
-	</body>
+  <body>
+    <div style="background-color:cyan">구역1</div>
+    <div style="width:100px; height:100px; background-color:#CF0">구역2</div>
+  </body>
 </html>
 ```
 
 출력 결과
 
-구역1                                                          
+구역1
 
-구역2                   
+구역2
 
 ## SPAN
 
@@ -131,11 +129,11 @@ span은 줄바꿈 X
 
 ```html
 <html>
-<body>
-	<span style="background-color:red">span1</span>
-	<span style="background-color:blue">span2</span>
-	<span style="background-color:green">span3</span>
-</body>
+  <body>
+    <span style="background-color:red">span1</span>
+    <span style="background-color:blue">span2</span>
+    <span style="background-color:green">span3</span>
+  </body>
 </html>
 ```
 
